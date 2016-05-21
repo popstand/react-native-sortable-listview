@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {Component} from "react";
+
 import TimerMixin from 'react-timer-mixin';
 
 var {
@@ -9,7 +10,7 @@ var {
   Dimensions,
   PanResponder,
   TouchableWithoutFeedback
-} = React;
+} = 'react-native';
 
 let HEIGHT = Dimensions.get('window').height;
 var Row = React.createClass({
