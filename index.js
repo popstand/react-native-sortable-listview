@@ -1,6 +1,6 @@
-import React, {Component} from "react";
+'use strict';
 
-import TimerMixin from 'react-timer-mixin';
+import React, {Component} from "react";
 
 import {
   ListView,
@@ -10,7 +10,9 @@ import {
   Dimensions,
   PanResponder,
   TouchableWithoutFeedback
-} from 'react-native';
+} from "react-native";
+
+import TimerMixin from 'react-timer-mixin';
 
 let HEIGHT = Dimensions.get('window').height;
 var Row = React.createClass({
