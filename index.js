@@ -2,7 +2,7 @@ import React, {Component} from "react";
 
 import TimerMixin from 'react-timer-mixin';
 
-var {
+import {
   ListView,
   LayoutAnimation,
   View,
@@ -10,7 +10,7 @@ var {
   Dimensions,
   PanResponder,
   TouchableWithoutFeedback
-} = 'react-native';
+} from 'react-native';
 
 let HEIGHT = Dimensions.get('window').height;
 var Row = React.createClass({
